@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viajes Chile</title>
+    <meta name="author" content="krojasp" />
+    <meta
+      name="description"
+      content="Descubre los mejores destinos turísticos de Chile con Viajes Chile. Paquetes de viajes, tours guiados, y experiencias inolvidables en lugares como Santiago, Patagonia, Atacama, y más."
+    />
+    <meta
+      name="keywords"
+      content="Viajes Chile, turismo en Chile, destinos turísticos, tours guiados, paquetes de viajes, Santiago, Patagonia, Atacama, vacaciones en Chile, turismo de aventura, viajes personalizados"
+    />
+    <!-- LOGO -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/viajes.svg"
+      type="image/x-icon"
+    />
+
+    <!-- HOJAS DE ESTILO -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!--FANCYBOX -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    />
+    <!-- ANIMACIONES CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- FONTAWESOME -->
+    <script
+      src="https://kit.fontawesome.com/7b38022a97.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVEGADOR -->
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg fixed-top animate__animated animate__backInLeft"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><span
+            ><img src="assets/img/viajes.svg" alt="Logo Cuppon" id="logo"
+          /></span>
+          Viajes Chile</a
+        >
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quienes-somos">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destacados">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- FIN NAVEGADOR -->
+
+    <!-- HEADER -->
+    <header>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/img/carousel1.jpg"
+              class="w-100"
+              alt="Imagen de alpacas en el desierto de Atacama"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Alpacas en el Desierto de Atacama</h5>
+              <p>
+                Descubre la belleza del desierto más árido del mundo acompañado
+                por alpacas autóctonas.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/carousel2.jpg"
+              class="d-block w-100"
+              alt="Imagen de Moais"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Moais de Isla de Pascua</h5>
+              <p>
+                Explora la misteriosa Isla de Pascua y sus emblemáticos Moais.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/carousel3.jpg"
+              class="d-block w-100"
+              alt="Imagen de pinguino de Humbolt"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Pingüino de Humboldt</h5>
+              <p>
+                Admira la fauna única de Chile con los pingüinos de Humboldt en
+                su hábitat natural.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- SECTION "QUIENES SOMOS" -->
+    <section
+      class="container justify-content-center bg-black text-light"
+      id="quienes-somos"
+    >
+      <div class="text-center">
+        <h2 class="text-light my-4">¿QUIÉNES SOMOS?</h2>
+        <hr class="text-light" />
+        <div class="row">
+          <div class="col-12 col-md-4 my-4">
+            <div class="icon-container">
+              <h4 class="icon-item"><i class="fa-solid fa-plane"></i></h4>
+            </div>
+            <div>
+              <p class="text-start my-3">
+                Viajes Chile nació hace una década con la misión de ofrecer
+                experiencias únicas de viaje. Empezamos como una pequeña agencia
+                local y hemos crecido gracias a nuestra pasión por explorar y
+                mostrar la belleza de nuestro país. Hoy, somos líderes en el
+                sector turístico. #AgenciaDeViajes #ViajesChile
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-4">
+            <div>
+              <p class="text-start">
+                Chile es el destino perfecto para el turismo de aventura. Desde
+                el desierto de Atacama hasta la Patagonia, ofrecemos
+                emocionantes actividades como trekking, rafting y escalada.
+                Descubre paisajes impresionantes y vive aventuras inolvidables
+                con nosotros. ¡Ven y explora Chile de manera única!
+                #TurismoAventura #ExploraChile
+              </p>
+            </div>
+            <div class="icon-container">
+              <h4 class="icon-item"><i class="fa-solid fa-mountain"></i></h4>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-4">
+            <div class="icon-container">
+              <h4 class="icon-item"><i class="fa-solid fa-route"></i></h4>
+            </div>
+            <div>
+              <p class="text-start my-3">
+                Con más de diez años de experiencia, Viajes Chile se ha
+                consolidado como una agencia de confianza. Nuestro equipo de
+                expertos garantiza viajes seguros y memorables. La satisfacción
+                de nuestros clientes es nuestra prioridad, respaldada por
+                nuestras numerosas recomendaciones. #Experiencia #Confianza
+                #ViajesChile
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION "DESTACADOS" -->
+    <section
+      class="container justify-content-center bg-black text-light"
+      id="destacados"
+    >
+      <div class="text-center">
+        <h2 class="text-light my-4">DESTACADOS</h2>
+        <hr class="text-light" />
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-12 col-md-3 my-3">
+            <div class="card">
+              <a href="assets/img/card1.jpg" data-fancybox>
+                <img
+                  src="assets/img/card1.jpg"
+                  class="card-img-top card-img-fixed-height"
+                  alt="Imagen de un lago muy hermoso"
+                />
+              </a>
+
+              <div class="card-body">
+                <h6 class="">Torres del Paine</h6>
+                <p class="card-text">
+                  Explora el Parque Nacional Torres del Paine en la Patagonia,
+                  con sus impresionantes montañas, lagos cristalinos y
+                  glaciares. Un destino perfecto para los amantes del senderismo
+                  y la aventura.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 my-3">
+            <div class="card">
+              <a href="assets/img/card2.jpg" data-fancybox>
+                <img
+                  src="assets/img/card2.jpg"
+                  class="card-img-top card-img-fixed-height"
+                  alt="Imagen de un lago muy hermoso"
+                />
+              </a>
+              <div class="card-body">
+                <h6 class="">Volcanes en el Altiplano</h6>
+                <p class="card-text">
+                  Descubre los majestuosos volcanes del Altiplano chileno, como
+                  el Parinacota y el Pomerape. Disfruta de paisajes
+                  altiplánicos, lagunas coloridas y termas naturales en un
+                  entorno de tranquilidad y belleza.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 my-3">
+            <div class="card">
+              <a href="assets/img/card3.jpg" data-fancybox>
+                <img
+                  src="assets/img/card3.jpg"
+                  class="card-img-top card-img-fixed-height"
+                  alt="Imagen de un lago muy hermoso"
+                />
+              </a>
+              <div class="card-body">
+                <h6 class="">Desierto de Atacama</h6>
+                <p class="card-text">
+                  Visita el Desierto de Atacama, el más árido del mundo, con sus
+                  paisajes surrealistas y cielos estrellados. Explora el Valle
+                  de la Luna, los géiseres del Tatio y las lagunas altiplánicas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 my-3">
+            <div class="card">
+              <a href="assets/img/card4.jpg" data-fancybox>
+                <img
+                  src="assets/img/card4.jpg"
+                  class="card-img-top card-img-fixed-height"
+                  alt="Imagen de un lago muy hermoso"
+                />
+              </a>
+              <div class="card-body">
+                <h6 class="">Selva Austral</h6>
+                <p class="card-text">
+                  Adéntrate en la Selva Austral y descubre la exuberante
+                  vegetación y biodiversidad de esta región. Recorre bosques
+                  milenarios, ríos caudalosos y cascadas en un entorno perfecto
+                  para los amantes de la naturaleza.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION "CONTACTO" -->
+    <section
+      class="container justify-content-center text-light y-4"
+      id="contacto"
+    >
+      <div class="text-center">
+        <h2 class="text-light my-4">CONTACTO</h2>
+        <hr class="text-light" />
+      </div>
+      <div class="container">
+        <form class="my-2">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control bg-light"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Asunto</label>
+            <input
+              type="text"
+              class="form-control bg-light"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Mensaje</label>
+            <textarea
+              type="text"
+              class="form-control bg-light"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            ></textarea>
+          </div>
+
+          <button type="button" class="btn btn-outline-light m-2">
+            Enviar
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container container-footer">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <a href="#"><h6>Viajes Chile</h6></a>
+          </div>
+          <div
+            class="col-12 col-md-6 text-center text-md-end md-py-3"
+            id="icons-footer"
+          >
+            <a href="#" class="me-3"><i class="fab fa-github fa-lg"></i></a>
+            <a href="#" class="me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+            <a href="#" class="me-3"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- DERECHOS DEL CREADOR -->
+    <div id="creado-por">
+      Creado por <a href="https://www.krojasp.com">krojasp</a>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- JS -->
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  </body>
+</html>
